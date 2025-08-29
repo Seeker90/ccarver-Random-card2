@@ -1,0 +1,9 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body{
+    background: green;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 30px;    
+}
