@@ -5,5 +5,23 @@ body{
     display: flex;
     justify-content: center; 
     align-items: center; 
-    margin: 30px;    
+    margin: 30px; 
+    
+}
+
+#card {
+    height: 240px;
+    width: 11rem;
+}
+.top-suit { 
+    height:20%;
+    margin-left: 10px;
+}
+.card-value {
+    height:60%;
+    font-size:100px
+       }
+.bottom-suit {
+    height:20%;
+    margin-right: 10px;
 }

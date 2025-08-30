@@ -23,7 +23,13 @@ window.onload = function() {
   document.querySelector(".card-value").innerHTML = [randomValue];
   document.querySelector(".bottom-suit").innerHTML = [randomSuit];
   
-  }
+  
+const refreshButton = document.querySelector("button");
+refreshButton.addEventListener("click", () => {
+  location.reload();
+})
+
+}
 
 
 
